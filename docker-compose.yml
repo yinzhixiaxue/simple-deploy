@@ -1,0 +1,12 @@
+version: "1"
+services:
+  kobe:
+    build:
+      context: .
+      dockerfile: kobe.Dockerfile
+    ports:
+      - 3001:3000
+  jordan:
+    image: jordan
+    ports:
+      - 3004:3000

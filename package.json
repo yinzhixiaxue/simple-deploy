@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/yinzhixiaxue/simple-deploy/issues"
   },
-  "homepage": "https://github.com/yinzhixiaxue/simple-deploy#readme"
+  "homepage": "https://github.com/yinzhixiaxue/simple-deploy#readme",
+  "dependencies": {
+    "serve": "^13.0.2"
+  }
 }
